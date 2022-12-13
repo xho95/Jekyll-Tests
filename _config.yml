@@ -1,8 +1,3 @@
-collections:
-  authors:
-    output: true
-
-<<<<<<< Updated upstream
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -40,7 +35,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-=======
+
+collections:
+  authors:
+    output: true
+
 defaults:
   - scope: 
       path: ""
@@ -56,4 +55,3 @@ defaults:
       path: ""
     values: 
       layout: "default"
->>>>>>> Stashed changes
